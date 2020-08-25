@@ -1,0 +1,8 @@
+<p>
+    La directive quiEsTu affiche le nom et le prénom en fonction du pseudo fourni.
+    Exemple d'utilisation :
+</p>
+
+<pre>
+    quiEsTu 'twitter'
+</pre>
