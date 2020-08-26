@@ -1,9 +1,12 @@
 def call (String pseudo) {
-    def store = new PseudoStore();
+    def store = new PseudoStore()
     def fullName = store.findNameByPseudo(pseudo)
-    
-    if(pseudo)
+
+    if (pseudo) {
         echo "Trouvé ! => Tu es ${fullName}"
-    else
+    }
+
+    else {
         echo 'Pseudo non reconnu'
+    }
 }
